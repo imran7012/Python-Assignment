@@ -1,13 +1,13 @@
 import psutil
 import time
 
-threshold = 50
+threshold = 30
 
 # ANSI code for red text
 RED = "\033[91m"
 RESET = "\033[0m"
 
-print("Monitoring CPU usage... (Press Ctrl+C to stop)")
+print("Monitoring CPU usage...")
 
 psutil.cpu_percent(interval=None)
 
