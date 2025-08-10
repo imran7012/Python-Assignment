@@ -31,7 +31,6 @@ def backup_files(source, destination):
             shutil.copy2(source_path, dest_path)
             print(f" Copied: {file}")
 
-# --- Main Program Starts Here ---
 if len(sys.argv) != 3:
     print("Usage: python backup.py <source_folder> <destination_folder>")
 else:

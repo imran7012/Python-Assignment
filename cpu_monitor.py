@@ -4,6 +4,7 @@ import time
 threshold = 30
 
 # ANSI code for red text
+
 RED = "\033[91m"
 RESET = "\033[0m"
 

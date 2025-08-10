@@ -21,9 +21,9 @@ def check_password_strength(password):
 user_password = input("Enter your password to check strength: ")
 
 if check_password_strength(user_password):
-    print("✅ Password is strong!")
+    print(" Password is strong!")
 else:
-    print("❌ Password is weak. Make sure it:")
+    print(" Password is weak. Make sure it:")
     print("- The password should be at least 8 characters long")
     print("- Contains both uppercase and lowercase letters atleast one character for each case")
     print("- Contains atleast one digit (0-9)")
