@@ -4,7 +4,7 @@ import shutil
 from datetime import datetime
 
 def backup_files(source, destination):
-    # Check if source and destination folders exist
+    # It will Check for source and destination folders exist
     if not os.path.exists(source):
         print(" Source folder not found!")
         return

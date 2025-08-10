@@ -1,9 +1,9 @@
 import psutil
 import time
 
-threshold = 30
+threshold = 80
 
-# ANSI code for red text
+# ANSI code for red text (For differentating high threshold with red colour)
 
 RED = "\033[91m"
 RESET = "\033[0m"
